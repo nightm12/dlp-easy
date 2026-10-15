@@ -2,7 +2,7 @@
 
 **简单易用的 yt-dlp Windows 桌面界面。** 使用 Electron、HTML、CSS 和原生 JavaScript 构建，帮助你设置音视频下载选项，不必手动拼写命令行参数。
 
-![YtDlp Easy 图标](assets/logo.png)
+![[YtDlp Easy 图标](assets/logo.png)](https://iili.io/nh1LRiN.png)
 
 YtDlp Easy 在本机调用 yt-dlp 和 FFmpeg，不托管或代理媒体内容。
 
