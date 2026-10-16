@@ -1,3 +1,15 @@
+# 更新日志
+
+## [1.1.1] - 2026-10-16
+
+### 新增
+- 设置中可分别调整整体界面缩放（90%–125%）和文字大小（90%–140%）。
+- 调整时即时预览并自动保存；支持恢复默认显示大小。
+
+### 改进
+- 默认界面和文字略微放大，提升可读性。
+- 设置页分为“外观与可读性”和“下载程序”区域，并加入文字预览。
+
 ## [1.1.0] - 2026-10-16
 
 ### 新增
@@ -20,6 +32,16 @@
 # Changelog
 
 Notable user-facing changes are listed here. The app shows release notes once after each version update; open **Version & updates** in the app to view them again.
+
+## [1.1.1] - 2026-10-16
+
+### Added
+- Separate controls for overall interface scale (90%–125%) and text size (90%–140%).
+- Live preview, automatic preference saving, and a reset-to-default action.
+
+### Improved
+- Slightly larger default interface and text for better readability.
+- Reorganized settings into Appearance & readability and Download program sections, with a text preview.
 
 ## [1.1.0] - 2026-10-16
 
