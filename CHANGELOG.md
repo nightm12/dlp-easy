@@ -1,5 +1,29 @@
 # 更新日志
 
+## [1.2.0] - 2026-10-16
+
+### 新增
+- 增加下载队列，可继续添加任务、查看等待/进行中状态、移除等待任务及清理已完成任务。
+- 增加本地下载历史，可搜索记录、打开下载位置或重新载入链接。
+- 重复检查详情明确区分相同视频 ID、歌名相似和歌单内重复标题。
+- 新增动态视觉风格，设置中可以切回经典界面；支持系统减少动态效果偏好。
+
+### 改进
+- 下载按钮改为“加入下载队列”，任务执行后会自动记录结果。
+- 新界面增加柔和渐变、卡片反馈、按钮光泽和状态动效。
+
+## [1.2.1] - 2026-10-16
+
+### 修复与改进
+- 启动时先显示带品牌图标的加载画面，避免 Electron 窗口首帧加载时出现长时间白屏。
+- 主窗口改为页面首帧准备好后再显示；启动页加入轻量动效和 8 秒兜底提示。
+
+## [1.1.8] - 2026-10-16
+
+### 修复
+- 应用内更新支持识别文件名用点号分隔的安装程序，例如 `YtDlp.Easy.Setup.1.1.7.exe`。
+- 更新检查和安装前校验使用相同的文件名规则。
+
 ## [1.1.7] - 2026-10-16
 
 ### 修复
@@ -82,6 +106,30 @@
 # Changelog
 
 Notable user-facing changes are listed here. The app shows release notes once after each version update; open **Version logs** in the app to view them again.
+
+## [1.2.1] - 2026-10-16
+
+### Fixed and improved
+- Show a branded loading screen during startup instead of an empty white window.
+- Show the main window after its first frame is ready; add subtle motion and an 8-second fallback message.
+
+## [1.2.0] - 2026-10-16
+
+### Added
+- Download queue with waiting/running states, queued item removal, and finished task cleanup.
+- Local download history with search, open-folder, and reload-link actions.
+- Clearer duplicate explanations for matching video IDs, similar normalized titles, and duplicate playlist titles.
+- New animated visual style with a setting to switch back to the classic interface.
+
+### Improved
+- The download action now adds work to the queue and records each result.
+- Added subtle gradients, card feedback, button sheen, and status animations.
+
+## [1.1.8] - 2026-10-16
+
+### Fixed
+- Recognize setup assets that use dots in the filename, such as `YtDlp.Easy.Setup.1.1.7.exe`.
+- Use the same filename rule during release lookup and installer validation.
 
 ## [1.1.7] - 2026-10-16
 
